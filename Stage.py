@@ -3,6 +3,7 @@ import logging
 
 
 class Stage:
+    """ This is the base class for a pipeline Stage"""
 
     STATE_ERROR = "Error"
     STATE_SUCCESS = "Success"
@@ -11,6 +12,7 @@ class Stage:
 
     def __init__(*args, **kwargs):
         """ constructor """
+        logging.info('__init__()')
         pass
 
     def initalize(self, *args, **kwargs):
