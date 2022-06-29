@@ -4,7 +4,8 @@ import logging
 
 class Stage:
 
-    ERROR = "Error"
+    STATE_ERROR = "Error"
+    STATE_SUCCESS = "Success"
 
     def __init__(*args, **kwargs):
         pass
