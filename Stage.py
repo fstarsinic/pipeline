@@ -13,23 +13,23 @@ class Stage:
     def __init__(*args, **kwargs):
         """ constructor """
         logging.info('__init__()')
-        pass
+        
 
     def initalize(self, *args, **kwargs):
         """ initialize method """
-        pass
+        
 
     def execute(self, *args, **kwargs):
         """ execute method """
-        pass
+        
 
     def finalize(self, *args, **kwargs):
         """ finalize method """
-        pass
+        
 
     def update_state(self):
         """ updates the state for the given stage"""
-        pass
+        
 
 def main():
     """ test method """
