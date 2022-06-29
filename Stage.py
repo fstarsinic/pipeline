@@ -7,6 +7,7 @@ class Stage:
     STATE_ERROR = "Error"
     STATE_SUCCESS = "Success"
     STATE_FAILURE = "Failure"
+    STATE_IN_PROGRESS = "In Progress"
 
     def __init__(*args, **kwargs):
         pass
